@@ -19,9 +19,9 @@
             <div class="form-group">
                 <select name="task-type" class="select-dropdown">
                     <option value=" disabled selected">Pick a task type</option>
-                    <option value="Household">Household</option>
-                    <option value="Personal">Personal</option>
-                    <option value="Basement Project">Basement</option>
+                    <option value="Print">Print</option>
+                    <option value="Web">Web</option>
+                    <option value="Phone">Phone</option>
                 </select>
             </div>
             <div class="form-group">
@@ -31,9 +31,22 @@
     </header>
 
     <main class="page-content">
+        <!-- Tasks To Do -->
         <section class="task-list-wrapper">
             <h2 class="list-title">Tasks To Do</h2>
                 <ul class="task-list" id="tasks-to-do"></ul>
+                </ul>
+        </section>
+        <!-- Tasks In Progress -->
+        <section class="task-list-wrapper">
+            <h2 class="list-title">Tasks In Progress</h2>
+                <ul class="task-list" id="tasks-in-progress"></ul>
+                </ul>
+        </section>
+        <!-- Tasks Completed -->
+        <section class="task-list-wrapper">
+            <h2 class="list-title">Tasks Completed</h2>
+                <ul class="task-list" id="tasks-completed"></ul>
                 </ul>
         </section>
     </main>
